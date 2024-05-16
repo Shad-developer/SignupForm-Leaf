@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.signup {
+  width: 80%;
+  min-height: 400px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+.content {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e9f8e5;
+}
+.content img {
+  width: 70%;
+}
+
+.signupform {
+  flex-basis: 50%;
+  background: #fff;
+  padding: 25px;
+}
+
+.signupform h2 {
+  text-align: center;
+  margin-top: -60px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  border-radius: 5px;
+  border: 1px solid #73895d;
+  outline: none;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.btnSignUp {
+  background-color: #73895d;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social img {
+  margin-top: 10px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid gainsboro;
+}
+
+.log {
+  text-align: center;
+  margin-top: 10px;
+}
+.log a {
+  text-decoration: none;
+  color: #73895d;
+}
+
+@media (max-width: 768px) {
+  .signup {
+    flex-direction: column;
+  }
+}
